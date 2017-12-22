@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import react, {Component} from 'react';
+import React, {Component} from 'react';
 import Formulario from './Formulario';
 
 
@@ -9,7 +9,7 @@ class App extends Component{
 
    render(){
         return(
-            <Formulario />
+            <Formulario placeholderDoInput ="Nome22" banana="laranja"/>
 
         );
 
